@@ -4,7 +4,9 @@
   "description": "Go Scrum V.2 backend API",
   "main": "index.js",
   "scripts": {
+    "start": "node index.ts",
     "tsc": "tsc",
+    "dev": "nodemon index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mariano Guillaume",
@@ -15,7 +17,11 @@
     "eslint": "^8.22.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard": "^17.0.0",
+    "nodemon": "^2.0.20",
     "prettier": "^2.7.1",
     "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
   }
 }
